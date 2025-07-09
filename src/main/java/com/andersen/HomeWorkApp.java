@@ -34,8 +34,6 @@ public class HomeWorkApp {
     }
 
     private static void checkSumSign(int a, int b) {
-//        int a = 10;
-//        int b = -5;
         int sum = a + b;
 
         if (sum >= 0) {
