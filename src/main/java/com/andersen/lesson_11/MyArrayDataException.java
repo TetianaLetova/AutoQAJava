@@ -2,8 +2,8 @@ package com.andersen.lesson_11;
 
 public class MyArrayDataException extends Exception {
 
-    private int row;
-    private int col;
+    private final int row;
+    private final int col;
 
     public MyArrayDataException(int row, int col, String message) {
         super(message);
